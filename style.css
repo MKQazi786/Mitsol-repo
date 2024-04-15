@@ -1,0 +1,163 @@
+body {
+    margin: 0;
+    /* margin-right: 0.5rem; */
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: center;
+}
+
+header {
+    padding-top:-1rem ;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    position:fixed;
+    width: 99.9%;
+}
+
+main{
+    padding-top:6rem;
+}
+
+.Logo {
+    max-height: 3rem;
+    max-width: 15rem;
+    padding: 0.5rem 0.3rem 0.5rem 0.7rem;
+    /* vertical-align: middle; */
+}
+
+header div p {
+    display: inline-block;
+    max-width: 20rem;
+    overflow: hidden;
+    padding: 0.1rem 0.2rem;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.7rem;
+    font-weight: 700;
+    letter-spacing: 0px;
+    color: #333333;
+    margin: 1rem 0rem;
+}
+
+header ul {
+    display: flex;
+    column-gap: 1.5rem;
+    list-style: none;
+    color: #333333;
+    font-family: 'Open Sans', sans-serif;
+    color: #9f9f9f;
+}
+
+/* main,article{
+    padding: 0rem 15rem;
+} */
+
+.yearHeading {
+    color: #585656;
+}
+
+a {
+    color: #212121;
+}
+
+main div {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: #212121;
+}
+
+main>div h1 {
+    font-size: 3rem;
+    font-weight: normal;
+}
+
+.mom-pic-div {
+    display: flex;
+    margin: 1rem 3rem;
+}
+
+.mom-pic-div>div {
+    font-size: 1.5rem;
+    text-align: left;
+    row-gap: 1rem;
+    line-height: 2.5rem;
+}
+
+.mom-pic-div img {
+    display: block;
+    width: 20rem;
+}
+
+.mom-pic-div>span {
+    margin: 1.5rem;
+    text-align: left;
+    line-height: 2rem;
+}
+
+.blogs-and-family {
+    padding: 1rem;
+    font-weight: normal;
+}
+
+.blogs-and-family a ,.contact a{
+    color: blue;
+}
+
+.First3Image {
+    display: flex;
+    padding: 2rem;
+}
+
+.fixImg {
+    width: 18rem;
+    padding: 1rem;
+}
+
+.leftSide {
+    width: 32rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 2rem;
+    font-size: 1.2rem;
+    padding-left: 3rem;
+    color: #585656;
+
+}
+
+.rightSide {
+    width: 22.6rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 2rem;
+    font-size: 1.2rem;
+    color: #585656;
+}
+
+.btn {
+    width: 29rem;
+    margin: 2rem 0rem;
+}
+
+.fixImg1 {
+    width: 32rem;
+}
+
+.fixImg2 {
+    width: 22.6rem;
+    padding: 0rem 2.9rem;
+    padding-bottom: 1rem;
+}
+
+.bothDiv {
+    display: flex;
+}
+
+.contact {
+    margin: 2rem;
+    color: #073763;
+    font-family: 'Georgia';
+    font-weight: normal;
+    padding: 0rem 1.5rem;
+    font-size: 1.2rem;
+}
