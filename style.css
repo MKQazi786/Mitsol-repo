@@ -10,17 +10,17 @@ body {
 }
 
 header {
-    padding-top:-1rem ;
+    padding-top: -1rem;
     display: flex;
     text-align: center;
     align-items: center;
     justify-content: space-between;
-    position:fixed;
+    position: fixed;
     width: 99.9%;
 }
 
-main{
-    padding-top:6rem;
+main {
+    padding-top: 6rem;
 }
 
 .Logo {
@@ -105,7 +105,8 @@ main>div h1 {
     font-weight: normal;
 }
 
-.blogs-and-family a ,.contact a{
+.blogs-and-family a,
+.contact a {
     color: blue;
 }
 
@@ -126,7 +127,7 @@ main>div h1 {
     font-size: 1.2rem;
     padding-left: 3rem;
     color: #585656;
-    
+
 }
 
 .rightSide {
@@ -166,12 +167,21 @@ main>div h1 {
     text-align: left;
 }
 
-@media only screen and (min-width:1440px){
-    .mom-pic-div{
+.video{
+    width: 1024px;
+    height: 600px;
+}
+
+
+@media only screen and (min-width:1440px) {
+    .mom-pic-div {
         margin: 0rem 22rem;
     }
 
-    /* .video{
-        width: 1024px;
-    } */
+    
+.video{
+    width: 1430px;
+    height: 800px;
+}
+
 }
