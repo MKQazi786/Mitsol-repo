@@ -1,9 +1,11 @@
 body {
     margin: 0;
     /* margin-right: 0.5rem; */
-    /* display: flex; */
+    display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
     min-width: 1020px;
 }
 
@@ -124,7 +126,7 @@ main>div h1 {
     font-size: 1.2rem;
     padding-left: 3rem;
     color: #585656;
-
+    
 }
 
 .rightSide {
@@ -161,4 +163,15 @@ main>div h1 {
     font-weight: normal;
     padding: 0rem 1.5rem;
     font-size: 1.2rem;
+    text-align: left;
+}
+
+@media only screen and (min-width:1440px){
+    .mom-pic-div{
+        margin: 0rem 22rem;
+    }
+
+    /* .video{
+        width: 1024px;
+    } */
 }
